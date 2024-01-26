@@ -1,14 +1,14 @@
 {
-   "name": "devi",
+   "name": "shadow",
    "version": "0.0.1",
-   "description": "Devi based on JavaScript",
-   "author": "Debanjan-San",
+   "description": "shadow based on JavaScript",
+   "author": "Cipher",
    "main": "src/index.js",
    "keywords": [
       "Whatsapp",
       "WhatsApp-Bot",
       "bot",
-      "devi"
+      "shadow"
    ],
    "license": "SEE LICENSE IN LICENSE.md",
    "type": "module",
@@ -17,12 +17,12 @@
       "start": "node --optimize_for_size --max_old_space_size=460 src/index.js"
    },
    "bugs": {
-      "url": "https://github.com/Debanjan-San/WhatsApp-Bot-Devi/issues"
+      "url": "https://github.com/Cipher0071/shadow/issues"
    },
-   "homepage": "https://github.com/Debanjan-San/WhatsApp-Bot-Devi",
+   "homepage": "https://github.com/Cipher0071/shadow",
    "repository": {
       "type": "git",
-      "url": "https://github.com/Debanjan-San/WhatsApp-Bot-Devi.git"
+      "url": "https://github.com/Cipher0071/shadow.git"
    },
    "dependencies": {
       "@hapi/boom": "^10.0.1",
