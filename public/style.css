@@ -45,16 +45,22 @@ a {
 }
 
 button {
-	border-radius: 20px;
-	border: 1px solid #09ec67;
-	background-color: #09ec67;
-	color: #FFFFFF;
-	font-size: 12px;
-	font-weight: bold;
-	padding: 12px 45px;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-	transition: transform 80ms ease-in;
+    border-radius: 20px;
+    border: 1px solid #2196F3;
+    background: #4CAF50; /* Green */
+    background: -webkit-linear-gradient(to right, #4CAF50, #2196F3); /* Green to Blue */
+    background: linear-gradient(to right, #4CAF50, #2196F3); /* Green to Blue */
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+}
+
+button:hover {
+    transform: scale(1.1);
 }
 
 button:active {
@@ -160,9 +166,9 @@ input {
 }
 
 .overlay {
-	background: #ed0303;
-	background: -webkit-linear-gradient(to right, #09ec67, #ed0303);
-	background: linear-gradient(to right, #09ec67, #ed0303);
+	background: #4CAF50; /* Green */
+	background: -webkit-linear-gradient(to right, #4CAF50, #2196F3); /* Green to Blue */
+	background: linear-gradient(to right, #4CAF50, #2196F3); /* Green to Blue */
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 0 0;
@@ -174,6 +180,7 @@ input {
   	transform: translateX(0);
 	transition: transform 0.6s ease-in-out;
 }
+
 
 .container.right-panel-active .overlay {
   	transform: translateX(50%);
